@@ -1,0 +1,3 @@
+[submodule "residualvm"]
+	path = residualvm
+	url = https://github.com/residualvm/residualvm.git
