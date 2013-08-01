@@ -64,7 +64,6 @@
 		8CAFC18C1785C48600647A96 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
 		E6BFD08617A9F55A006F5B0D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = SOURCE_ROOT; };
 		E6BFD08817A9F56A006F5B0D /* Residual-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Residual-Prefix.pch"; sourceTree = SOURCE_ROOT; };
-		E6BFD08B17A9FA67006F5B0D /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		E6BFD08D17A9FA67006F5B0D /* audiostream.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = audiostream.cpp; sourceTree = "<group>"; };
 		E6BFD08E17A9FA67006F5B0D /* audiostream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = audiostream.h; sourceTree = "<group>"; };
 		E6BFD09017A9FA67006F5B0D /* adpcm.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = adpcm.cpp; sourceTree = "<group>"; };
@@ -159,7 +158,6 @@
 		E6BFD0EC17A9FA67006F5B0D /* mame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mame.h; sourceTree = "<group>"; };
 		E6BFD0ED17A9FA67006F5B0D /* timestamp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = timestamp.cpp; sourceTree = "<group>"; };
 		E6BFD0EE17A9FA67006F5B0D /* timestamp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = timestamp.h; sourceTree = "<group>"; };
-		E6BFD0EF17A9FA67006F5B0D /* AUTHORS */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AUTHORS; sourceTree = "<group>"; };
 		E6BFD0F217A9FA67006F5B0D /* audiocd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = audiocd.h; sourceTree = "<group>"; };
 		E6BFD0F417A9FA67006F5B0D /* default-audiocd.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "default-audiocd.cpp"; sourceTree = "<group>"; };
 		E6BFD0F517A9FA67006F5B0D /* default-audiocd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "default-audiocd.h"; sourceTree = "<group>"; };
@@ -463,12 +461,6 @@
 		E6BFD25917A9FA68006F5B0D /* config.guess */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = config.guess; sourceTree = "<group>"; };
 		E6BFD25A17A9FA68006F5B0D /* config.sub */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = config.sub; sourceTree = "<group>"; };
 		E6BFD25B17A9FA68006F5B0D /* configure */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = configure; sourceTree = "<group>"; };
-		E6BFD25C17A9FA68006F5B0D /* COPYING */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = COPYING; sourceTree = "<group>"; };
-		E6BFD25D17A9FA68006F5B0D /* COPYING.BSD */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = COPYING.BSD; sourceTree = "<group>"; };
-		E6BFD25E17A9FA68006F5B0D /* COPYING.FREEFONT */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = COPYING.FREEFONT; sourceTree = "<group>"; };
-		E6BFD25F17A9FA68006F5B0D /* COPYING.ISC */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = COPYING.ISC; sourceTree = "<group>"; };
-		E6BFD26017A9FA68006F5B0D /* COPYING.LGPL */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = COPYING.LGPL; sourceTree = "<group>"; };
-		E6BFD26117A9FA68006F5B0D /* COPYRIGHT */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = COPYRIGHT; sourceTree = "<group>"; };
 		E6BFD26517A9FA68006F5B0D /* create_project.cbp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = create_project.cbp; sourceTree = "<group>"; };
 		E6BFD26617A9FA68006F5B0D /* codeblocks.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = codeblocks.cpp; sourceTree = "<group>"; };
 		E6BFD26717A9FA68006F5B0D /* codeblocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = codeblocks.h; sourceTree = "<group>"; };
@@ -1144,7 +1136,6 @@
 		E6BFD54717A9FA6B006F5B0D /* residualvm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = residualvm.png; sourceTree = "<group>"; };
 		E6BFD54817A9FA6B006F5B0D /* residualvm.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = residualvm.svg; sourceTree = "<group>"; };
 		E6BFD54917A9FA6B006F5B0D /* residualvm.xpm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = residualvm.xpm; sourceTree = "<group>"; };
-		E6BFD54A17A9FA6B006F5B0D /* KNOWN_BUGS */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = KNOWN_BUGS; sourceTree = "<group>"; };
 		E6BFD54B17A9FA6B006F5B0D /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
 		E6BFD54C17A9FA6B006F5B0D /* Makefile.common */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.common; sourceTree = "<group>"; };
 		E6BFD54E17A9FA6B006F5B0D /* angle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = angle.cpp; sourceTree = "<group>"; };
@@ -1175,13 +1166,11 @@
 		E6BFD56717A9FA6B006F5B0D /* vector3d.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vector3d.h; sourceTree = "<group>"; };
 		E6BFD56817A9FA6B006F5B0D /* vector4d.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = vector4d.cpp; sourceTree = "<group>"; };
 		E6BFD56917A9FA6B006F5B0D /* vector4d.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vector4d.h; sourceTree = "<group>"; };
-		E6BFD56A17A9FA6B006F5B0D /* NEWS */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = NEWS; sourceTree = "<group>"; };
 		E6BFD56B17A9FA6B006F5B0D /* plugin.exp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.exports; path = plugin.exp; sourceTree = "<group>"; };
 		E6BFD56D17A9FA6B006F5B0D /* module.mk */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = module.mk; sourceTree = "<group>"; };
 		E6BFD56E17A9FA6B006F5B0D /* POTFILES */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = POTFILES; sourceTree = "<group>"; };
 		E6BFD56F17A9FA6B006F5B0D /* remove-potcdate.sed */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "remove-potcdate.sed"; sourceTree = "<group>"; };
 		E6BFD57017A9FA6B006F5B0D /* ports.mk */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ports.mk; sourceTree = "<group>"; };
-		E6BFD57117A9FA6B006F5B0D /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
 		E6BFD57217A9FA6B006F5B0D /* rules.mk */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = rules.mk; sourceTree = "<group>"; };
 		E6BFD57517A9FA6B006F5B0D /* audiostream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = audiostream.h; sourceTree = "<group>"; };
 		E6BFD57617A9FA6B006F5B0D /* helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = helper.h; sourceTree = "<group>"; };
@@ -1308,7 +1297,6 @@
 		E6BFD5FA17A9FA6C006F5B0D /* cxxtest_mingw.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cxxtest_mingw.h; sourceTree = "<group>"; };
 		E6BFD5FB17A9FA6C006F5B0D /* module.mk */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = module.mk; sourceTree = "<group>"; };
 		E6BFD5FC17A9FA6C006F5B0D /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
-		E6BFD5FD17A9FA6C006F5B0D /* TODO */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TODO; sourceTree = "<group>"; };
 		E6BFD5FF17A9FA6C006F5B0D /* bink_decoder.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = bink_decoder.cpp; sourceTree = "<group>"; };
 		E6BFD60017A9FA6C006F5B0D /* bink_decoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bink_decoder.h; sourceTree = "<group>"; };
 		E6BFD60117A9FA6C006F5B0D /* binkdata.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = binkdata.h; sourceTree = "<group>"; };
@@ -1406,21 +1394,13 @@
 		E6BFD08A17A9FA67006F5B0D /* residualvm */ = {
 			isa = PBXGroup;
 			children = (
-				E6BFD08B17A9FA67006F5B0D /* .gitignore */,
 				E6BFD08C17A9FA67006F5B0D /* audio */,
-				E6BFD0EF17A9FA67006F5B0D /* AUTHORS */,
 				E6BFD0F017A9FA67006F5B0D /* backends */,
 				E6BFD1D817A9FA68006F5B0D /* base */,
 				E6BFD1E517A9FA68006F5B0D /* common */,
 				E6BFD25917A9FA68006F5B0D /* config.guess */,
 				E6BFD25A17A9FA68006F5B0D /* config.sub */,
 				E6BFD25B17A9FA68006F5B0D /* configure */,
-				E6BFD25C17A9FA68006F5B0D /* COPYING */,
-				E6BFD25D17A9FA68006F5B0D /* COPYING.BSD */,
-				E6BFD25E17A9FA68006F5B0D /* COPYING.FREEFONT */,
-				E6BFD25F17A9FA68006F5B0D /* COPYING.ISC */,
-				E6BFD26017A9FA68006F5B0D /* COPYING.LGPL */,
-				E6BFD26117A9FA68006F5B0D /* COPYRIGHT */,
 				E6BFD26217A9FA68006F5B0D /* devtools */,
 				E6BFD29217A9FA68006F5B0D /* dists */,
 				E6BFD30F17A9FA69006F5B0D /* doc */,
@@ -1428,18 +1408,14 @@
 				E6BFD45417A9FA6A006F5B0D /* graphics */,
 				E6BFD4AA17A9FA6A006F5B0D /* gui */,
 				E6BFD54117A9FA6B006F5B0D /* icons */,
-				E6BFD54A17A9FA6B006F5B0D /* KNOWN_BUGS */,
 				E6BFD54B17A9FA6B006F5B0D /* Makefile */,
 				E6BFD54C17A9FA6B006F5B0D /* Makefile.common */,
 				E6BFD54D17A9FA6B006F5B0D /* math */,
-				E6BFD56A17A9FA6B006F5B0D /* NEWS */,
 				E6BFD56B17A9FA6B006F5B0D /* plugin.exp */,
 				E6BFD56C17A9FA6B006F5B0D /* po */,
 				E6BFD57017A9FA6B006F5B0D /* ports.mk */,
-				E6BFD57117A9FA6B006F5B0D /* README */,
 				E6BFD57217A9FA6B006F5B0D /* rules.mk */,
 				E6BFD57317A9FA6B006F5B0D /* test */,
-				E6BFD5FD17A9FA6C006F5B0D /* TODO */,
 				E6BFD5FE17A9FA6C006F5B0D /* video */,
 			);
 			path = residualvm;
@@ -4036,6 +4012,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)\"";
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "\"$(USER_LIBRARY_DIR)/Application Support/OpenEmu/Cores\"";
 				OTHER_LDFLAGS = "";
@@ -4064,6 +4041,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)\"";
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "\"$(USER_LIBRARY_DIR)/Application Support/OpenEmu/Cores\"";
 				OTHER_LDFLAGS = "";
