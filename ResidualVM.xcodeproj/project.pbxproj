@@ -62,7 +62,6 @@
 		8CAFC1241785B6F700647A96 /* ResidualGameCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResidualGameCore.h; sourceTree = "<group>"; };
 		8CAFC1251785B6F700647A96 /* ResidualGameCore.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ResidualGameCore.mm; sourceTree = "<group>"; };
 		8CAFC18C1785C48600647A96 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
-		8CB3FB7A1786D2E500A3C50D /* OEResidualSystemResponderClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OEResidualSystemResponderClient.h; path = ../OpenEmu/PSP/OEResidualSystemResponderClient.h; sourceTree = "<group>"; };
 		E6BFD08617A9F55A006F5B0D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = SOURCE_ROOT; };
 		E6BFD08817A9F56A006F5B0D /* Residual-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Residual-Prefix.pch"; sourceTree = SOURCE_ROOT; };
 		E6BFD08B17A9FA67006F5B0D /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
@@ -1320,6 +1319,7 @@
 		E6BFD60617A9FA6C006F5B0D /* smk_decoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = smk_decoder.h; sourceTree = "<group>"; };
 		E6BFD60717A9FA6C006F5B0D /* video_decoder.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = video_decoder.cpp; sourceTree = "<group>"; };
 		E6BFD60817A9FA6C006F5B0D /* video_decoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = video_decoder.h; sourceTree = "<group>"; };
+		E6BFD8F217AA009E006F5B0D /* OEResidualSystemResponderClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OEResidualSystemResponderClient.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1377,7 +1377,7 @@
 		8CAFC10A1785B60F00647A96 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				8CB3FB7A1786D2E500A3C50D /* OEResidualSystemResponderClient.h */,
+				E6BFD8F217AA009E006F5B0D /* OEResidualSystemResponderClient.h */,
 				8CAFC1241785B6F700647A96 /* ResidualGameCore.h */,
 				8CAFC1251785B6F700647A96 /* ResidualGameCore.mm */,
 			);

@@ -27,7 +27,7 @@
 #import "ResidualGameCore.h"
 #import <OpenEmuBase/OERingBuffer.h>
 
-@interface ResidualGameCore () <OEPSPSystemResponderClient>
+@interface ResidualGameCore () <OEResidualSystemResponderClient>
 {
     
 }
